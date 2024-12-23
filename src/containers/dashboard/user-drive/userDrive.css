@@ -1,0 +1,129 @@
+.drive-parent {
+    /* position: relative;
+    display: flex;
+    width: 90%;
+    height: 15vh;
+    box-sizing: border-box;
+    padding: 4%;
+    box-shadow: 0 0 10px #192030;
+    color: #fff; */
+
+
+
+    /* border-radius: 30px;
+    box-shadow: 0 0 10px #192030; */
+
+    /* From https://css.glass */
+    /* background: rgba(255, 255, 255, 0.5);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(3.4px);
+    -webkit-backdrop-filter: blur(3.4px);
+    border: 1px solid rgba(255, 255, 255, 1); */
+
+    /* From https://css.glass */
+    /* background: rgba(103, 119, 145, 0.21);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5.5px);
+    -webkit-backdrop-filter: blur(5.5px);
+    border: 1px solid rgba(103, 119, 145, 1); */
+
+    /* From https://css.glass */
+    /* background: rgba(0, 36, 96, 0.43);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5.5px);
+    -webkit-backdrop-filter: blur(5.5px);
+    border: 1px solid rgba(0, 36, 96, 1); */
+
+    /* From https://css.glass */
+    /* background: rgba(25, 32, 48, 0.83);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(9.7px);
+    -webkit-backdrop-filter: blur(9.7px);
+    border: 1px solid rgba(25, 32, 48, 1); */
+
+
+    position: relative;
+    display: flex;
+    width: 90%;
+    height: 15vh;
+    /* background-color: #fff; */
+    box-sizing: border-box;
+    padding: 4%;
+    box-shadow: 0 0 10px #000000;
+    color: #fff;
+    background: rgb(255 106 0 / 83%);
+    border-radius: 16px;
+    /* box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1); */
+    backdrop-filter: blur(9.7px);
+    -webkit-backdrop-filter: blur(9.7px);
+    border: 1px solid rgb(228 255 0);
+}
+
+.drive-menu-icon {
+    cursor: pointer;
+}
+
+.drive-space-used {
+    font-size: 1rem;
+    width: 80%;
+}
+
+.drive-ext-icon-parent {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.file-ext {
+    position: absolute;
+    color: #180e00;
+}
+
+.drive-ext-icon {
+    border: solid;
+    border-color: #192030;
+    height: 70%;
+    width: 40%;
+    color: #192030;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.user-drive-item {
+    position: absolute;
+    top: 0%;
+    /* right: 0%; */
+    width: 81%;
+    height: 50%;
+    left: 60%;
+}
+
+.drive-section-1 {
+    position: relative;
+    width: 20%;
+}
+
+.drive-section-2 {
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    gap: 10%;
+    padding-left: 5%;
+}
+
+.drive-section-3 {
+    width: 10%;
+}
+
+.file-icon {
+    width: 70%;
+    height: 100%;
+}

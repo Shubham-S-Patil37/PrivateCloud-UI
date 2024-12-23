@@ -1,0 +1,118 @@
+.contact-us {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40rem;
+    background-color: #222222;
+    /* background-color: #fff; */
+}
+
+.contact-us-parent {
+    height: 80%;
+    width: 95%;
+    background-color: #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5%;
+}
+
+.section1 {
+    width: 50%;
+    height: 100%;
+    /* padding-top: 1%; */
+    background-image: url('../../assets/contact-us.jpeg');
+    background-size: cover;
+    background-position: center;
+
+}
+
+.section2 {
+    width: 50%;
+    height: 100%;
+}
+
+.input-field {
+    font: 0.8rem "Fira Sans", sans-serif;
+    height: 3%;
+    padding: 3%;
+    width: 100%;
+    outline: none;
+    background-color: #222222;
+    border: none;
+    color: #7b7b7b;
+    /* border radius */
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+}
+
+.input-field:focus {
+    color: #fff;
+}
+
+.input-field-text-area {
+    height: 15%;
+}
+
+.form-parent {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    /* gap: 5px; */
+    width: 80%;
+    align-items: center;
+    padding-top: 2rem;
+}
+
+.submit-btn {
+    height: 10%;
+    width: 50%;
+    outline: none;
+    background-color: #222222;
+    border: none;
+    color: #fff;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.title-lab {
+    font-size: 2rem;
+    color: #fff;
+}
+
+.input-field:-webkit-autofill {
+    background-color: #222222 !important;
+    color: white !important;
+    /* Force white text */
+    font-family: inherit !important;
+    -webkit-text-fill-color: white !important;
+    /* Crucial for autofill text */
+    transition: background-color 5000s ease-in-out 0s;
+}
+
+/* Firefox Autofill Styling */
+.input-field:-moz-autofill {
+    background-color: #222222 !important;
+    color: white !important;
+}
+
+/* Autofilled Field on Focus */
+.input-field:-webkit-autofill:focus,
+.input-field:-moz-autofill:focus {
+    border: 2px solid #FFD43B;
+    border-radius: 4px;
+    color: white !important;
+    -webkit-text-fill-color: white !important;
+}
+
+
+.input-field:-webkit-autofill:not(:focus) {
+    -webkit-text-fill-color: #7b7b7b !important;
+    background-color: #222222 !important;
+}
+
+.input-field:-moz-autofill:not(:focus) {
+    color: #7b7b7b !important;
+}

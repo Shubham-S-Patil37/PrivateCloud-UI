@@ -1,0 +1,130 @@
+.dashboard-parent {
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    width: 100%;
+    min-height: 100vh;
+    /* background-color: #1F1F1F; */
+    background-color: #F1F1F1;
+}
+
+.display-none {
+    display: none;
+}
+
+.dash-section1 {
+    position: fixed;
+    width: 15%;
+    height: 100vh;
+    top: 0;
+}
+
+.dash-section2 {
+    position: fixed;
+    width: 85%;
+    min-height: 100vh;
+    top: 0;
+    right: 0;
+    /* max-height: 98vh; */
+    /* background-color: #fff; */
+    border-radius: 30px;
+    /* padding: 20px; */
+}
+
+.dashboard-card1 {
+    width: 45%;
+    height: 30vh;
+}
+
+.dash-title {
+    font-size: 20px;
+    height: 10%;
+    /* text-align: right; */
+    color: #192030;
+    background-color: #fff;
+    box-sizing: border-box;
+    padding: 10px;
+    text-transform: uppercase;
+}
+
+.dash-title-child {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+}
+
+.logout-btn {
+    border-radius: 10px;
+    border: 1px solid #192030;
+    background-color: #192030;
+    color: #ffffff;
+    font-size: 12px;
+    font-weight: bold;
+    padding: 12px 45px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    transition: transform 80ms ease-in;
+    cursor: pointer;
+}
+
+.card-row1 {
+    display: flex;
+    justify-content: space-between;
+    /* gap: 5% */
+}
+
+.sub-section {
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    gap: 2vh;
+    padding: 20px;
+}
+
+.sub-section1 {
+    width: 55%;
+    display: flex;
+    flex-direction: column;
+    gap: 4vh;
+}
+
+.sub-section2 {
+    width: 45%;
+}
+
+.dash-table {
+    height: 90%;
+}
+
+.dash-upload-file {
+    width: 100%;
+    height: 100%;
+}
+
+.your-drive {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    overflow: auto;
+}
+
+.your-drive-parent {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 2%;
+    /* width: 100%;
+    height: 100%; */
+}
+
+.your-drive-item {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.your-drive-title {
+    font-size: 2rem;
+    height: 10vh;
+}

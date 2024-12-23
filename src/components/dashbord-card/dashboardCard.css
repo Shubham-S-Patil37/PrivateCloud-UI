@@ -1,0 +1,48 @@
+.dash-card-parent {
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    /* align-items: center; */
+    min-width: 100%;
+    /* min-height: 100%; */
+    height: calc(100% - 0px);
+    background-color: #fff;
+    gap: 4vh;
+    border-radius: 20px;
+    border-color: #fff;
+    box-shadow: 0 4px 30px rgba(158, 158, 158, 0.8);
+    padding: 20px;
+    box-sizing: border-box;
+    color: #192030;
+}
+
+.dash-card-title-parent {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.dash-card-title {
+    font-size: 25px;
+    /* color: #80007E; */
+}
+
+.sub-title-parent {
+    font-size: 40px;
+    gap: 20%;
+    text-align: center;
+}
+
+.upload-section-1 {
+    width: 70%;
+    height: 55%;
+}
+
+.upload-section-2 {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    gap: 5%;
+    overflow-y: auto;
+    overflow-x: hidden;
+}

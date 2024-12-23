@@ -1,0 +1,38 @@
+.card-parent {
+    height: 100%;
+    width: 20%;
+
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 8%;
+    /* padding-top: 10%; */
+}
+
+.card-icon {
+    text-align: center;
+    background-color: #0000cb;
+    height: 26%;
+    width: 30%;
+    border-radius: 50%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-logo {
+    height: 70%;
+    width: 70%;
+    color: #fff;
+}
+
+.card-title {
+    font-size: 1.5rem;
+}
+
+.card-description {
+    font-size: 1rem;
+    text-align: justify;
+}

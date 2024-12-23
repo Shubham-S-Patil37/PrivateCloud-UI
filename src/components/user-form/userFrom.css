@@ -1,0 +1,82 @@
+.user-form-parent {
+    display: flex;
+    flex-direction: column;
+    gap: 5%;
+    max-height: 100vh;
+    overflow-y: auto;
+}
+
+.user-info {
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    min-height: 50vh;
+    background-color: #fff;
+    padding: 5vw;
+    gap: 4vw;
+}
+
+.user-profile-image {
+    background-color: #192030;
+    width: 20vw;
+    height: 20vw;
+    border-radius: 50%;
+}
+
+.user-info-data {
+    display: flex;
+    flex-direction: column;
+    gap: 1vw;
+}
+
+.user-info-name {
+    font-size: 4vw;
+}
+
+.user-detail-form {
+    /* padding: 3%; */
+    margin: 0;
+    background-color: #fff;
+
+    display: flex;
+    flex-direction: column;
+    overflow-y: auto;
+    align-items: center;
+}
+
+.form-group {
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.user-form-input {
+    background-color: #eee;
+    border: none;
+    padding: 12px 15px;
+    margin: 8px 0;
+    width: 100%;
+    color: #192030;
+}
+
+.user-form-label {
+    color: #192030;
+}
+
+.user-form-combine-field {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.update-btn {
+    background-color: #192030;
+    color: #fff;
+    width: 30%;
+    height: 3vw;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}

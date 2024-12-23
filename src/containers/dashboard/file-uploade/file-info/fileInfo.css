@@ -1,0 +1,29 @@
+.file-info-main {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    width: 90%;
+    height: 20%;
+    background-color: #fff;
+    padding: 15px;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px rgba(158, 158, 158, 0.8);
+    box-sizing: border-box;
+    position: relative;
+    /* left: -250px; */
+    transition: all 0.6s ease-in-out;
+    transform: translateX(250px);
+}
+
+.file-info-main.active {
+    transform: translateX(0px);
+}
+
+.upload-complete-check {
+    color: #58db00;
+}
+
+.footer-bar {
+    display: flex;
+    justify-content: space-between;
+}

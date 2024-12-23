@@ -1,0 +1,36 @@
+.delete-popup-parent {
+    width: 40%;
+    height: 15%;
+    position: absolute;
+    background-color: #192030;
+    color: #fff;
+
+    display: flex;
+    flex-direction: column;
+    gap: 30%;
+    padding: 2%;
+    box-sizing: border-box;
+
+    z-index: 100;
+    border-radius: 10px;
+
+    top: 40%;
+    left: 30%;
+}
+
+.delete-btn-parent {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 5%;
+    height: 50%;
+}
+
+.delete-popup-btn {
+    background-color: #fff;
+    border: none;
+    width: 20%;
+    height: 100%;
+    border-radius: 50px;
+    cursor: pointer;
+}

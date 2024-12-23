@@ -1,0 +1,33 @@
+/* Hide sorting icon */
+.MuiDataGrid-columnHeader:has(.MuiDataGrid-sortIcon) .MuiDataGrid-sortIcon {
+    display: none;
+}
+
+.MuiDataGrid-cell:focus {
+    outline: none !important;
+}
+
+.MuiDataGrid-cell.Mui-selected {
+    background-color: transparent !important;
+}
+
+.MuiDataGrid-columnHeader:focus {
+    outline: none !important;
+}
+
+.MuiDataGrid-columnHeader.Mui-selected {
+    background-color: transparent !important;
+}
+
+.table-parent {
+    background-color: #fff;
+    width: 100%;
+    height: 100%;
+}
+
+/* In your CSS file */
+.custom-header .MuiDataGrid-columnHeaders {
+    --DataGrid-containerBackground: #192030;
+    background-color: #192030 !important;
+    color: #fff;
+}
